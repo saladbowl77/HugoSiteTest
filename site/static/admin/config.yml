@@ -45,14 +45,14 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Logo, name: logo, widget: image}
           - {label: Body, name: body, widget: markdown}
           - label: Contact Entries
-            name: contact_entries
+            name: history_entries
             widget: list
             fields:
               - label: Heading
                 name: heading
                 widget: string
               - label: This is test
-                name: content
+                name: sub_history_entries
                 widget: list
                 fields:
                   - label: Heading
