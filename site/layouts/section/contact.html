@@ -8,13 +8,15 @@
 		{{ .Content }}
 
 		<div class="flex-ns mb3">
+			{{ .Params }}
 	        {{ range .Params.contact_entries }}
 				<div>
 					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-						{{ range .Params.contact_entries.contact_entries }}
-							<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-							<h4 class="f4 b lh-title mb2 primary">{{ .txt }}</h4>
-						{{ end }}
+					<p class="hoge">{{ .text }}</p>
+					{{ range .sub_contact_entries }}
+						<h4 class="hoge">{{ .heading }}</h4>
+						<p class="hoge">{{ .text }}</p>
+					{{ end }}
 				</div>
 			{{ end }}
 		</div>

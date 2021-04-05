@@ -52,7 +52,7 @@ collections: # A list of collections the CMS should be able to edit
                 name: heading
                 widget: string
               - label: This is test
-                name: contact_entries
+                name: content
                 widget: list
                 fields:
                   - label: Heading
