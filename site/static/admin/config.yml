@@ -80,3 +80,16 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Heading, name: heading, widget: string}
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
+  - name: "settings"
+    label: "Settings"
+    extension: "json"
+    editor:
+      preview: false
+
+    files:
+      - file: "./test.json"
+        label: "Navigation"
+        name: "navigation"
+
+        fields:
+          - { name: body, label: Body, widget: code }

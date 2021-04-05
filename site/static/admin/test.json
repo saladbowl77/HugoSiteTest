@@ -1,0 +1,22 @@
+{
+    "contents": [
+        {
+            "history_Title": "何かが起きた",
+            "history_year": "1998-07-06T15:00:00.000Z",
+            "history_Img": {
+                "url": "https://images.microcms-assets.io/assets/444f709c55c84f77a0aea05ff5e4345a/ce1825e447144344a2704de4f2cc4d53/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202021-04-04%2022.30.47.png",
+                "height": 2190,
+                "width": 2016
+            },
+            "history_Txt": "何かが起こった"
+        },
+        {
+            "history_Title": "創業",
+            "history_year": "1996-07-06T15:00:00.000Z",
+            "history_Txt": "○○年に創業"
+        }
+    ],
+    "totalCount": 2,
+    "offset": 0,
+    "limit": 10
+}
